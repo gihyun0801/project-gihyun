@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body{
+   
+        font-family: "Nanum Pen Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+.main_box{
+   
+    margin:200px auto;
+   
+
+    
+}
+
+.body{
+   background: linear-gradient(184deg, #242535 30%, #776bf6 138%);
+}
+
+.input-btn{
+    width:350px;
+    height:50px;
+    border-radius: 25px;
+    border:none;
+    background-color:transparent;
+    margin-bottom:20px;
+    padding-left:30px;
+    outline-color:white;
+    font-size:20px;
+    box-shadow: 0px 0px 1px 1px white;
+    color:white;
+    transition: 0.3s;
+    
+}
+
+
+
+table{
+    margin:0 auto;
+    width:80%
+}
+
+.signup{
+    width:380px;
+    height:50px;
+    border-radius: 25px;
+    border:none;
+    outline-color:white;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    background:linear-gradient(45deg, #ff6599, transparent);
+    text-decoration: none;
+    margin:0 auto;
+    position: relative;
+    right:60px;
+    font-size:23px;
+    bottom:30px;
+    display:block;
+}
+
+input::placeholder {
+    color: white;
+  }
+
+.input-btn:focus{
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);;
+    outline-color: white;
+}
+
+.btn{
+    width:380px;
+    height:50px;
+    background-color:#f22f75;
+    border-radius: 25px;
+    outline:none;
+    border:none;
+    color:white;
+    cursor: pointer;
+    background:linear-gradient(45deg, #7cf2a3 -10%, #9C27B0 130%);
+}
+
+.form{
+    width:500px;
+    margin:50px auto;
+}
+
+.star{
+    width:250px;
+    height:250px;
+    border:3px solid white;
+    border-radius: 50%;
+    box-shadow:0px 0px 7px 2px white;
+    margin:0 auto;
+    font-size:150px;
+    text-align: center;
+    position:relative;
+    right:60px;
+    color:white;
+
+    
+
+}
+
+.p{
+
+    position:relative;
+    bottom:102px;
+    text-shadow: 0px 2px 16px #cb75dd, 2px 3px 10px #857e66;
+    
+}
+
+.td4{width:450px;}
+
+table{
+    color:white;
+   
+    width:80%;
+}
+body{
+    height:100vh
+}
+
+tr{
+    text-align: center;
+    height:80px;
+    font-size:29px;
+}
+
+.td_head_font{
+    font-size:24px;
+}
+
+.a_tag_btn{
+
+text-decoration: none;
+
+}
+
+.a_tag_btn{
+    display: block;
+    color: white;
+    width: 90px;
+    height: 80px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 80px;
+    border: none;
+ 
+    
+}
+
+#sujeong-btn{
+    background-color:#9494c1;
+}
+
+#delete-btn{
+    background-color:#c04f4f;
+}
+
+.addbtn{
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    text-decoration: none;
+    color: #a399e2;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(45deg, #1934e8, #c05c5c);
+    border-radius: 50px;
+    /* position: relative; */
+    float: right;
+    margin-top: 100px;
+    margin-right: 310px;
+}
+
+.logOut{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    color: #ebd363;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    background: linear-gradient(45deg, #1096ff, #c05c5c);
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    margin-bottom: 0px;
+    position: absolute;
+    /* bottom: 460px; */
+    /* left: 430px; */
+    right: 30px;
+    top: 50px;
+   
+}
+
+
+.empty_h2{
+    color:white;
+    font-size:25px;
+    text-align: center;
+}
+
+.insert_form{
+    width: 500px;
+    height: 400px;
+    margin: 150px auto;
+    display: grid;
+    row-gap: 30px;
+    
+}
+
+.insert_btn{
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(192deg, #815d29 -10%, #3368ff 130%);
+    font-size: 17px;
+    transition: 0.1s linear;
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    font-weight:900;
+}
+
+.insert_btn:hover{
+    border:1px solid white;
+    box-shadow: 0px 0px 2px 1px white;;
+    
+}
+
+.update_reback{
+    position:relative;
+    bottom:140px;
+}
+
+.insert_reback{
+    position:relative;
+    bottom:140px;
+}
+
+
+.content_area{
+   
+    border: 3px solid white;
+    font-size: 18px;
+    background-color: #ffeefb;
+    background: transparent;
+    box-shadow: 0px 0px 10px 2px white;
+    color:white
+}
+
+.insert-text{
+    background:transparent;
+    box-shadow: 0px 0px 5px 2px white;
+    color:white
+}
+
+span{
+    font-size:24px
+}
+.flex_box{
+    display:flex;
+    column-gap: 15px;
+}
+
+.signup-form{
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 70px;
+}
+
+.input-size{
+    width: 302px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+
+.span_check{
+    width:55%;
+    line-height: 53px;
+}
+
+.sign_up_h1{
+    text-align: center;
+    color:white;
+    font-size:60px;
+    margin-bottom:50px;
+}
+
+#inputPw{
+    width:250px;
+    height:30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+
+#inputPw:focus{
+    box-shadow: 0px 0px 3px 4px white;
+}
+
+.input-size:focus{
+    box-shadow: 0px 0px 3px 4px white;
+}
+
+#reback{
+    margin:20px auto;
+    display:block;
+    background:linear-gradient(60deg, #c43daa 30%, #9f5454 50%);
+    width:502px;
+    
+}
